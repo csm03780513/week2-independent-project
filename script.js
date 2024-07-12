@@ -3,5 +3,10 @@ document.getElementById("akan-form")
         event.preventDefault();
         const birthday = document.getElementById("birthday").value;
         const gender = document.getElementById("gender").value;
+
+        if (birthday === "") {
+            alert("Please enter your birthday.");
+            return;
+        }
     }
 );
