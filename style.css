@@ -19,3 +19,8 @@ body {
 form {
     margin: 20px 0;
 }
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
